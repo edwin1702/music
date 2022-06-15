@@ -1,0 +1,188 @@
+*{
+    font-family: 'robot', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.texto-cabecera {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: rgb(255,255,255);
+    font-size: 150px;
+
+
+}
+
+
+.principal img{
+    width: 100%;
+    
+}
+
+
+button{
+    width: 150px;
+    height: 50px;
+    background:rgb(255, 94, 94);
+    border-radius: 30px;
+    color: white;
+    border-color: rgb(255, 94, 94);
+
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    font-size: 20px;
+    padding: 0px 0px 0px 300px;
+}
+
+.img-2 img{
+    height: 400px;
+    margin-right: 300px;
+    
+}
+
+.container1{
+    display: flex; 
+    flex-direction:row-reverse;
+    font-size: 20px;
+    padding: 0px 0px 0px 300px;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #fc5252;
+}
+
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+}
+.parrafo1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: -0;
+}
+
+
+.footer-container{
+    display:inline-flex;
+    height: 500px;
+    width:00px;
+    
+}
+.footer-container ul{
+    list-style: none;
+}
+.footer-container .PRIMERO{
+    margin: 100px 0px 0px 0px;
+    color: white;
+    margin-left: 400px;
+}
+
+.footer-container .SEGUNDO{
+    margin: 100px 0px 0px 0px;
+    color:white;
+    margin-left: 120px;
+}
+.footer-container .TERCERO {
+    margin: 100px 0px 0px 0px;
+    color: white;
+    margin-left: 120px ;
+}
+.footer-container .CUARTO {
+    margin: 100px 0px 0px 0px;
+    color:white;
+    margin-left: 120px;
+   
+}
+
+.PRIMERO li {
+    line-height:25px;
+}
+
+.PRIMERO UL{
+    line-height:50PX;
+}
+.SEGUNDO li {
+    line-height:25px;
+}
+
+.SEGUNDO UL{
+    line-height:50PX;
+}
+.TERCERO li {
+    line-height:25px;
+}
+
+.TERCERO UL{
+    line-height:50PX;
+}
+.CUARTO li {
+    line-height:25px;
+}
+
+.CUARTO UL{
+    line-height:50PX;
+}
+.texto-encima2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(110%, 3550%);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.container2{
+    background-image: url(image/john-raptis.png);
+    height:70vh;
+    display:flex;
+    justify-content:right;
+    
+}
+
+.container2 .texto2{
+    width:380px;
+    color: white;
+    margin-top: 170px;
+    margin-right: 250px;
+    font-size: 25px;
+
+}
+
+.container2 button{
+    margin-top: 28px;
+}
+.linea {
+    border-top: 1px solid rgb(252, 252, 252);
+    height: 2px;
+    max-width: 1500px;
+    padding: 0;
+    margin: -170px auto 0 auto;
+    
+    
+}
+.correo {
+    margin-left: 1550px;
+    margin-top: -35px;
+    color: white;
+}
+.copy {
+    margin-top: 50px;
+    margin-left:200px;
+    color: white;
+}
+.titulo1{
+    background: linear-gradient(to right,rgb(235,81,64), rgb(101,2,158), rgb(64,1,101), rgb(64,1,101), rgb(64,1,101));
+    color: transparent;
+    -webkit-background-clip: text;
+
+} 
